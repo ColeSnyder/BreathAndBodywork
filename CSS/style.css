@@ -1,0 +1,71 @@
+body {
+    font-family: 'Noto Sans HK', sans-serif;
+    height: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 200px;
+    color: white;
+    padding-right: 3%;
+    background-image: url("../Photos/abstract.jpg");
+    background-size: cover;
+}
+
+span {
+    font-size: .6em;
+}
+
+footer {
+    height: 200px;
+    background-color: #7a4dab;
+}
+
+h1 {
+    font-size: 1.2em;
+}
+
+#divider {
+    width: 100%;
+    background-color: #7a4dab;
+    height: 20px;
+}
+
+img {
+    height: 60%;
+}
+
+#navBar {
+    font-size: 1em;
+    background-color: #1b1e21;
+    /* background-image: url("../Photos/abstract.jpg");  */
+    color: #D6D6D6;
+    padding-right: 0;
+    height:100vh;
+}
+
+#CompanyName {
+    text-align: right;
+    font-size: 3em;
+}
+
+.sidenavItem {
+    padding: 10px;
+    margin-right: 0px;
+}
+
+.sidenavItem:hover {
+    cursor: pointer;
+    background-color: #2f3438;
+}
+
+.fa {
+    margin-right: 5%;
+}
+
+.active {
+    color: white;
+    background-color: #3b4045;
+}
