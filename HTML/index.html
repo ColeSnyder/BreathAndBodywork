@@ -5,12 +5,26 @@
   <meta charset="utf-8">
   <link rel="icon" href="../Photos/logo.jpg">
   <title>Breath and Bodywork</title>
+  <meta name="viewport" content="width=device-width , initial-scale=1" />
   <meta name="description" content="Breath and Bodywork Therapeutic Massage">
   <meta name="author" content="Cole Snyder">
+  
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="../CSS/style.css">
+
+
   <link href="https://fonts.googleapis.com/css?family=Literata|Noto+Sans+HK&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha256-UzFD2WYH2U1dQpKDjjZK72VtPeWP50NoJjd26rnAdUI=" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Karma&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Teko&display=swap" rel="stylesheet">
+
+
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -20,33 +34,99 @@
             <div id="CompanyName" class="col-10">
               <h1>Breath and Bodywork</h1>
               <h2 id="smallertext">Therapeutic Massage LLC</h2>
-              <span>715-778-5950</span>
+              <!-- <span>715-778-5950</span> -->
             </div>
-            <!-- <div id="CompanyName" class="col-10">Breath and Bodywork<br>Therapeutic Massage LLC<br><span>715-778-5950</span></div> -->
         </div>
     </header>
 
     <div id="divider"></div>
 
-    <div class="row">
-        <div id="navBar" class="col-2"> <!-- Side nav bar -->
-          <div class="sidenavItem active"><i class="fa fa-home"></i> Home</div>
-          <div class="sidenavItem"><i class="fa fa-spa"></i> Services</div>
-          <div class="sidenavItem"><i class="fa fa-tags"></i> Rates/Specials</div>
-          <div class="sidenavItem"><i class="fa fa-clock"></i> Hours/Scheduling</div>
-          <div class="sidenavItem"><i class="fa fa-file-signature"></i> Forms</div>
-          <div class="sidenavItem"><i class="fa fa-id-card"></i> Contact Me</div>
-          <div class="sidenavItem"><i class="fa fa-external-link-square-alt"></i> Links</div>
-          <div class="sidenavItem"><i class="fa fa-portrait"></i> About Me</div>
-        </div>
-        <div class="col-10"> <!-- Main page content -->
+    <nav class="navbar navbar-expand-sm navbar-dark" id="navbar">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarToggler">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="rates.html">Rates/Specials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="hours.html">Business Hours</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="forms.html">Forms</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="links.html">Links</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Me</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-        </div>
+    <div class="contentContainer">
+      <h1 id="Welcome">WELCOME!</h1>
+      <div class="massageIntro">
+        <p>Today's world isn’t slowing down but instead going faster and faster, stress levels becoming higher and higher. We all need downtime in order to recharge. Our hope here is that you take those 30-, 60- or 90-minutes to relax and refresh.<br><br>We'd be happy to see you, so call and make an appointment today!</p>
+      </div>
+
+      <div id="buttonWrapper">
+        <a href="services.html" target="_blank"><button class="pageLinkButton">SEE WHAT WE OFFER</button></a>
+      </div>
+
+      <div class="indexButtons">
+        <a href="#holisticContent"><div class="card" id="holisticCard">Holistic Approach</div></a>
+        <a href="#fitnessContent"><div class="card" id="fitnessCard">Fitness</div></a>
+        <a href="#differenceContent"><div class="card" id="makeADifferenceCard">Make a Difference</div></a>
+      </div>
+
+      <div class="cardContent" id="holisticContent">HOLISTIC <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi tincidunt ornare massa eget egestas purus viverra accumsan in. Auctor urna nunc id cursus. Sit amet volutpat consequat mauris nunc. Pellentesque elit eget gravida cum sociis. Proin fermentum leo vel orci porta non pulvinar. Eu mi bibendum neque egestas congue quisque egestas diam in. Lectus magna fringilla urna porttitor rhoncus dolor. Ut diam quam nulla porttitor massa id neque. Rutrum quisque non tellus orci ac auctor. Pellentesque massa placerat duis ultricies lacus sed turpis tincidunt id. Pulvinar elementum integer enim neque. Sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus. Sit amet nisl purus in mollis nunc sed id. Sed viverra ipsum nunc aliquet bibendum enim.</div>
+      <div class="cardContent" id="fitnessContent">FITNESS <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi tincidunt ornare massa eget egestas purus viverra accumsan in. Auctor urna nunc id cursus. Sit amet volutpat consequat mauris nunc. Pellentesque elit eget gravida cum sociis. Proin fermentum leo vel orci porta non pulvinar. Eu mi bibendum neque egestas congue quisque egestas diam in. Lectus magna fringilla urna porttitor rhoncus dolor. Ut diam quam nulla porttitor massa id neque. Rutrum quisque non tellus orci ac auctor. Pellentesque massa placerat duis ultricies lacus sed turpis tincidunt id. Pulvinar elementum integer enim neque. Sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus. Sit amet nisl purus in mollis nunc sed id. Sed viverra ipsum nunc aliquet bibendum enim.</div>
+      <div class="cardContent" id="differenceContent">MAKE A DIFFERENCE <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi tincidunt ornare massa eget egestas purus viverra accumsan in. Auctor urna nunc id cursus. Sit amet volutpat consequat mauris nunc. Pellentesque elit eget gravida cum sociis. Proin fermentum leo vel orci porta non pulvinar. Eu mi bibendum neque egestas congue quisque egestas diam in. Lectus magna fringilla urna porttitor rhoncus dolor. Ut diam quam nulla porttitor massa id neque. Rutrum quisque non tellus orci ac auctor. Pellentesque massa placerat duis ultricies lacus sed turpis tincidunt id. Pulvinar elementum integer enim neque. Sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus. Sit amet nisl purus in mollis nunc sed id. Sed viverra ipsum nunc aliquet bibendum enim.</div>
+
     </div>
 
-    <!-- <footer></footer> -->
+    <footer>
 
+        <div class="row">
+          <div class="col-3">
 
-  <script src="../JS/script.js"></script>
+              <div class="centered">
+                  <button class="footerButton">Privacy Policy</button><br><br>
+                  <button class="footerButton">Terms of Use</button><br><br>
+                  <button class="footerButton">Contact Us</button><br><br>
+                </div>
+
+          </div>
+          <div class="col-6">
+              <h1 class="footerTitle">Breath and Bodywork, Therapeutic Massage LLC</h1>
+              <a href="https://www.facebook.com/Breath-and-Bodywork-Therapeutic-Massage-LLC-206322249464703/?ref=br_rs" target="_blank"><i class="fa fa-facebook-square fa-3x"></i></a>
+          </div>
+          <div class="col-3">
+            <h1 class="footerTitle">Office Info</h1>
+            <p class="footerText">715-778-5950</p>
+            <p class="footerText">snyder.nickie@yahoo.com</p>
+            <p class="footerText">S107 McKay Ave, Spring Valley, WI 54767</p>
+            <p class="footerText">PO Box 152</p>
+        </div>
+        </div>
+        <div class="copyrightLocation centered">
+          <h6 class="copyrightText">Copyright © 2019 Breath and Bodywork Therapeutic Massage, LLC, All Rights Reserved</h6>
+        </div>
+    </footer>
+
+    <script src="../JavaScript/script.js"></script>
 </body>
 </html>

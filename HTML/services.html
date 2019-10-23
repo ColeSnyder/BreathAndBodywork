@@ -3,32 +3,152 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
-  <title>Services Offered</title>
+  <link rel="icon" href="../Photos/logo.jpg">
+  <title>Services</title>
+  <meta name="viewport" content="width=device-width , initial-scale=1" />
   <meta name="description" content="Breath and Bodywork Therapeutic Massage">
   <meta name="author" content="Cole Snyder">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="../CSS/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Literata|Noto+Sans+HK&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Heebo&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Karma&display=swap" rel="stylesheet">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <header>
+        <div class="row">
+            <div id="logo" class="col-2 text-center"><img src="../Photos/body.png" class="img-responsive"></div>
+            <div id="CompanyName" class="col-10">
+              <h1>Breath and Bodywork</h1>
+              <h2 id="smallertext">Therapeutic Massage LLC</h2>
+              <span>715-778-5950</span>
+            </div>
+        </div>
+    </header>
 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand" href="#">Breath and Bodywork</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                  <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="about.html">About Us</a>
-                    <a class="nav-item nav-link" href="location.html">Find Us</a>
-                    <a class="nav-item nav-link active" href="services.html">Services</a>
+    <div id="divider"></div>
+
+    <nav class="navbar navbar-expand-sm navbar-dark" id="navbar">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarToggler">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="rates.html">Rates/Specials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="hours.html">Business Hours</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="forms.html">Forms</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="links.html">Links</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Me</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="contentContainer">
+      <h1 id="Welcome">SERVICES</h1>
+
+      <div class="row">
+
+          <div class="col-6 servicesCard">
+              <div>
+                  <img class="servicesIMG" src="../Photos/massage.jpg" width="100%;">
+                  <div class="servicesCardText">
+                   <h1 class="servicesCardTitle">Massage</h1>
+                    <p>We offer 30-, 60-, and 90-minute massage.</p>
+                    <p>Swedish/relaxation. dt. tpt. different everytime. look up other definitions, ideas, etc</p>
                   </div>
-                </div>
-        </nav> 
+              </div>
+            </div>
+    
+            <div class="col-6 servicesCard">
+              <div>
+                  <img class="servicesIMG" src="../Photos/sauna.jpg" width="100%;">
+                  <div class="servicesCardText">
+                    <h1 class="servicesCardTitle">Full-Spectrum Infared Sauna</h1>
+                    <p>Details about specific sauna</p>
+                    <p>In the sauna, you will have 45 to sweat. presets explain what to bring water benefits importance of detox </p>
+                  </div>
+             </div>
+            </div>
 
-  <script src="../JavaScript/script.js"></script>
+        <div class="col-6 servicesCard">
+          <div>
+            <img class="servicesIMG" src="../Photos/aromatherapy.jpg" width="100%;">
+            <div class="servicesCardText">
+              <h1 class="servicesCardTitle">Aromatherapy</h1>
+              <p>Different kinds of aromas</p>
+              <p>Available upon request to add to your session, or bring your own.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 servicesCard">
+          <div>
+            <img class="servicesIMG" src="../Photos/giftCert.jpg" width="100%;">
+            <div class="servicesCardText">
+              <h1 class="servicesCardTitle">Gift Certificates</h1>
+              <p>Maybe like dollar amounts for certificates</p>
+              <p>Available upon request. If needed, after we take your payment we can send these out directly to you.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <br><br>
+
+      <div id="buttonWrapper">
+          <a href="rates.html"><button class="pageLinkButton">SEE OUR RATES</button></a>
+      </div>
+
+    </div>
+
+    <footer>
+
+        <div class="row">
+          <div class="col-3">
+
+              <div class="centered">
+                  <button class="footerButton">Privacy Policy</button><br><br>
+                  <button class="footerButton">Terms of Use</button><br><br>
+                  <button class="footerButton">Contact Us</button><br><br>
+                </div>
+
+          </div>
+          <div class="col-9">
+              <h1 class="footerTitle">Breath and Bodywork, Therapeutic Massage LLC</h1>
+              <p>S107 McKay Ave, Spring Valley, WI 54767</p>
+              <p>(715) 778-5950</p>
+          </div>
+        </div>
+        <div class="copyrightLocation centered">
+          <h6>Copyright © 2019 Breath and Bodywork Therapeutic Massage, LLC, All Rights Reserved</h6>
+        </div>
+    </footer>
+
+    <script src="../JavaScript/script.js"></script>
 </body>
 </html>
