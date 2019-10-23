@@ -147,6 +147,16 @@ button {
     font-size: .8em;
 }
 
+.borderLeft {
+    border-left: 1px solid #ddd;
+
+}
+
+.borderRight {
+    border-right: 1px solid #ddd;
+
+}
+
 .pageLinkButton {
     justify-content: center;
     background-color: #643f8c;
@@ -281,4 +291,17 @@ table {
     #CompanyName {
         font-size: 2em;
     }
-  }
+
+    .card {
+        display: none;
+    }
+
+    .footerTitle {
+        font-size: 1.2em;
+    }
+
+    .footerButton {
+        width: 75px;
+        font-size: .8em;
+    }
+}
