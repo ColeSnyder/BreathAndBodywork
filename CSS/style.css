@@ -56,7 +56,8 @@ h1 {
 
 #divider {
     width: 100%;
-    background-color: #643f8c;
+    /* background-color: #643f8c; */
+    background-color: #71445B;
     height: 20px;
 }
 
@@ -83,7 +84,6 @@ img {
 .navbar {
     overflow: hidden;
     z-index: 10;
-    /* background-color: #e9ecef; */
 }
 
 .sticky {
@@ -93,14 +93,15 @@ img {
 }
 
 #Welcome {
-    text-align: center;
-    font-size: 6em;
     /* font-family: 'Karma', serif; */
     /* font-family: 'Quicksand', sans-serif;     */
+    /* font-family: 'Teko', sans-serif; */
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    font-size: 5em;
     margin-bottom: 5%;
     border-bottom: 1px solid #e9ecef;
     color: #4D2775;
-    font-family: 'Teko', sans-serif;
 }
 
 .active {
@@ -160,7 +161,8 @@ button {
 
 .pageLinkButton {
     justify-content: center;
-    background-color: #643f8c;
+    /* background-color: #643f8c; */
+    background-color: #71445B;
 }
 
 .pageLinkButton:hover {
