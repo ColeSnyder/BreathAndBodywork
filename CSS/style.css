@@ -93,12 +93,9 @@ img {
 }
 
 #Welcome {
-    /* font-family: 'Karma', serif; */
-    /* font-family: 'Quicksand', sans-serif;     */
-    /* font-family: 'Teko', sans-serif; */
     font-family: 'Cinzel', serif;
     text-align: center;
-    font-size: 5em;
+    font-size: 4em;
     margin-bottom: 5%;
     border-bottom: 1px solid #e9ecef;
     color: #4D2775;
@@ -169,11 +166,15 @@ button {
     background-color: #9C74C7;
 }
 
-#buttonWrapper {
-  margin-bottom: 10%;
+.buttonWrapper {
+  /* margin-bottom: 10%; */
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#buttonMargin {
+    margin-bottom: 10%;
 }
 
 /* index cards */
